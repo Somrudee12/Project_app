@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context="com.example.ngz.miniproject.Register">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:paddingTop="70dp"
+            android:text="Register"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/RegitserUser"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginStart="18dp"
+            android:background="@drawable/rounded_white"
+            android:drawableLeft="@drawable/iconman"
+            android:drawablePadding="5dp"
+            android:hint="Username"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textSize="14dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/RegisterPass"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginStart="18dp"
+            android:background="@drawable/rounded_white"
+            android:drawableLeft="@drawable/iconkey"
+            android:drawablePadding="5dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textSize="14dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/RegisterConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginStart="18dp"
+            android:background="@drawable/rounded_white"
+            android:drawableLeft="@drawable/key"
+            android:drawablePadding="5dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/butRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="Register"
+            android:textColor="#ffffff"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+</RelativeLayout>
